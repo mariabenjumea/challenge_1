@@ -1,0 +1,28 @@
+.content-wrap {
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 400px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 20px;
+}
+
+.plan-box {
+    width: 200px;
+    background-color: var(--very-pale-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    overflow: hidden;
+}
