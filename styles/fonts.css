@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "RetHatDisplay";
+    src: url("../fonts/RetHatDisplay/RedHatDisplay-Regular.ttf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "RetHatDisplay";
+    src: url("../fonts/RetHatDisplay/RedHatDisplay-Bold.ttf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "RetHatDisplay";
+    src: url("../fonts/RetHatDisplay/RedHatDisplay-ExtraBold.ttf");
+    font-weight: 900;
+}
