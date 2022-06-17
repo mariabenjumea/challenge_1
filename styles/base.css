@@ -4,6 +4,12 @@ body {
     font-size: 16px;
     hyphens: auto;
     text-align: center;
+    margin: 0px;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: var(--pale-blue);
 }
 
 h1 {
@@ -14,10 +20,28 @@ h1 {
     color: var(--dark-blue);
 }
 
+h2 {
+    font-size: 16px;
+    text-align:left;
+    margin: 0px 100px 5px 20px;
+    color: var(--dark-blue);
+}
+
+figcaption > a {
+    font-size: 16px;
+    color: var(--bright-blue);
+    text-decoration: underline;
+}
+
 p {
     color: gray;
     text-align: center;
     margin: 10px 60px;
+}
+
+figcaption > p {
+    text-align: left;
+    margin: 0px 100px 0px 20px;
 }
 
 button {
